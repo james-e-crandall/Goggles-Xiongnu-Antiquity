@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--HUNNIC-->
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG1">
+			<Text>ba'ŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG2">
+			<Text>hu's</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG3">
+			<Text>altəq</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG4">
+			<Text>sīn</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG5">
+			<Text>hənaŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG6">
+			<Text>qa'j</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG7">
+			<Text>tū</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG8">
+			<Text>embaŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG9">
+			<Text>ēj</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG10">
+			<Text>ba'ŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG11">
+			<Text>sest ba'ŋ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG12">
+			<Text>ulbaŋt</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG13">
+			<Text>ogə</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG14">
+			<Text>ūl</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG15">
+			<Text>qa' bēj</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG16">
+			<Text>qool</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG17">
+			<Text>de'</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG18">
+			<Text>qo'l</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG19">
+			<Text>tugd</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG20">
+			<Text>solgup</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG21">
+			<Text>anbok</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_XIONGNU_ROG22">
+			<Text>qōks</Text>
+		</Row>
+	</EnglishText>
+</Database>

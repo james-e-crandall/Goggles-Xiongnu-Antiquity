@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--				Civ-Specific Traits					-->
+	<!-- ==================================================	-->
+
+
+    <Modifier id="MOD_XIONGNU_ABILITY_UNIT_PRODUCTION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE"/>
+            <Requirement type="REQUIREMENT_CITY_IS_CAPITAL"/>
+		</SubjectRequirements>
+		<Argument name="Percent">100</Argument>
+        <String context="Description">LOC_TRADITION_YASIRGAN_CAPITAL_UNIT_PRODUCTION_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- ==================================================	-->
+	<!--				Civ-Specific Trees					-->
+	<!-- ==================================================	-->
+
+	<Modifier id="MOD_REVEAL_CIV_CULTURE_TREE_XIONGNU_JEC" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_REVEAL_CULTURE_TREE">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT">
+				<Argument name="TraitType">TRAIT_XIONGNU_JEC</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProgressionTreeType">TREE_CIVICS_AQ_XIONGNU_JEC</Argument>
+	</Modifier>
+
+
+	<!-- ==================================================	-->
+	<!--				Wonder Bonuses						-->
+	<!-- ==================================================	-->
+</GameEffects>

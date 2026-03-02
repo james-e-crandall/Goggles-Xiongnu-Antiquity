@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" CivilizationName="LOC_CIVILIZATION_XIONGNU_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_XIONGNU_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_XIONGNU_JEC_DESCRIPTION" CivilizationIcon="civ_sym_XIONGNU_JEC.png"/>
+	</Civilizations>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_HAN_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+	</LeaderCivilizationBias>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" Type="TRAIT_XIONGNU_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_XIONGNU_JEC_ABILITY_NAME" Description="LOC_TRAIT_XIONGNU_JEC_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" Type="BUILDING_MEDOS_KAMOS_JEC" Kind="KIND_BUILDING" Name="LOC_BUILDING_MEDOS_KAMOS_JEC_NAME" Description="LOC_BUILDING_MEDOS_KAMOS_JEC_DESCRIPTION" Icon="ICON_BUILDING_MEDOS_KAMOS_JEC"/>	
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" Type="QUARTER_STRAVA" Kind="KIND_QUARTER" Name="LOC_QUARTER_STRAVA_NAME" Description="LOC_QUARTER_STRAVA_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" Type="UNIT_KANDAR_JEC" Kind="KIND_UNIT" Name="LOC_UNIT_KANDAR_JEC_NAME" Description="LOC_UNIT_KANDAR_JEC_DESCRIPTION" Icon="UNIT_KANDAR_JEC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" Type="UNIT_TUNKUR_JEC" Kind="KIND_UNIT" Name="LOC_UNIT_TUNKUR_JEC_NAME" Description="LOC_UNIT_TUNKUR_JEC_DESCRIPTION" Icon="UNIT_TUNKUR_JEC"/>
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" TagType="TAG_TRAIT_MILITARISTIC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" TagType="TAG_TRAIT_EXPANSIONIST"/>
+	</CivilizationTags>
+	<LeaderUnlocks>
+	</LeaderUnlocks>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_XIONGNU_JEC" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_MONGOLIA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_MONGOLIA_NAME" Description="LOC_CIVILIZATION_MONGOLIA_DESCRIPTION" Icon="ICON_CIVILIZATION_MONGOLIA"/>
+	</CivilizationUnlocks>
+</Database>

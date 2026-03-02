@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_XIONGNU_JEC" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_XIONGNU_JEC" Kind="KIND_CIVILIZATION"/>
+	</Types>
+
+	<LegacyCivilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" Name="LOC_CIVILIZATION_XIONGNU_JEC_NAME" FullName="LOC_CIVILIZATION_XIONGNU_JEC_FULLNAME" Adjective="LOC_CIVILIZATION_XIONGNU_JEC_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+	</LegacyCivilizations>
+
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" TraitType="TRAIT_XIONGNU_JEC"/>
+	</LegacyCivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_XIONGNU_JEC" InternalOnly="true"/>
+	</Traits>
+	<LegacyLeaderCivPriorities>
+	</LegacyLeaderCivPriorities>
+</Database>

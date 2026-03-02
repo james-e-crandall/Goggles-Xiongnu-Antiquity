@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiComponents>
+	</AiComponents>
+	<AiDefinitions>
+	</AiDefinitions>
+	<OpTeamRequirements>
+	</OpTeamRequirements>
+	<PseudoYields>
+	</PseudoYields>
+	<AiListTypes>
+		<!-- Xiongnu -->
+		<Row ListType="Xiongnu Unit Biases"/>
+		<Row ListType="Xiongnu Government Bias"/>
+		<Row ListType="Xiongnu Constructibles Biases" />
+		<Row ListType="Xiongnu Budget Biases" />
+		<Row ListType="Xiongnu PseudoYield Biases" />
+		<Row ListType="Xiongnu Tag Biases"/>
+		<Row ListType="Xiongnu Settle Plot Conditions"/>
+	</AiListTypes>
+	<AiLists>
+		<!-- Xiongnu -->
+		<Row ListType="Xiongnu Unit Biases" LeaderType="TRAIT_Xiongnu_ROG" System="UnitBiases"/>
+		<Row ListType="Xiongnu Government Bias" LeaderType="TRAIT_Xiongnu_ROG" System="GovernmentBiases"/>
+		<Row ListType="Xiongnu Constructibles Biases" LeaderType="TRAIT_Xiongnu_ROG" System="ConstructibleBiases" />	
+		<Row ListType="Xiongnu Budget Biases" LeaderType="TRAIT_Xiongnu_ROG" System="AiBudgetBiases"/>	
+		<Row ListType="Xiongnu PseudoYield Biases" LeaderType="TRAIT_Xiongnu_ROG" System="PseudoYieldBiases"/>	
+		<Row ListType="Xiongnu Tag Biases" LeaderType="TRAIT_Xiongnu_ROG" System="TagBiases"/>
+		<Row ListType="Xiongnu Settle Plot Conditions" LeaderType="TRAIT_MISSISSIPPIAN" System="SettlementPlotEvaluations" />
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Xiongnu -->
+		<Row ListType="Xiongnu Budget Biases" Item="AI_BUDGET_STANDING_ARMY" Value="200"/>
+		<Row ListType="Xiongnu Budget Biases" Item="AI_BUDGET_EXPANSION" Value="200"/>
+		<Row ListType="Xiongnu Tag Biases" Item="MILITARY" Value="400"/>
+		<Row ListType="Xiongnu PseudoYield Biases" Item="PSEUDOYIELD_NEW_CITY" Value="50"/>
+		<Row ListType="Xiongnu Constructibles Biases" Item="IMPROVEMENT_PASTURE" Value="200" />
+		<Row ListType="Xiongnu Constructibles Biases" Item="BUILDING_ALTAR" Value="200" />
+		<Row ListType="Xiongnu Constructibles Biases" Item="BUILDING_GRANARY" Value="200" />
+		<Row ListType="Xiongnu Unit Biases" Item="UNIT_TUNKUR_ROG" Value="150"/>
+		<Row ListType="Xiongnu Unit Biases" Item="UNIT_KANDAR_ROG" Value="150"/>
+		<Row ListType="Xiongnu Unit Biases" Item="UNIT_KANDAR_ROG_2" Value="150"/>
+		<Row ListType="Xiongnu Unit Biases" Item="UNIT_KANDAR_ROG_3" Value="150"/>
+		<Row ListType="Xiongnu Settle Plot Conditions" Item="Resource Class" Value="5" StringVal="RESOURCECLASS_BONUS" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_STRATEGIC_RESOURCES"/>
+	</AiFavoredItems>
+	<!-- City Strategies -->
+	<Strategies>
+	</Strategies>
+	<StrategyConditions>
+	</StrategyConditions>
+	<Strategy_Priorities>
+	</Strategy_Priorities>
+	<AiListTypes>
+	</AiListTypes>
+	<AiLists>
+	</AiLists>
+	<AiFavoredItems>
+	</AiFavoredItems>
+</Database>
