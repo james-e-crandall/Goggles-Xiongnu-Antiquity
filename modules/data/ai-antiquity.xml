@@ -37,10 +37,9 @@
 		<Row ListType="Xiongnu Constructibles Biases" Item="IMPROVEMENT_PASTURE" Value="200" />
 		<Row ListType="Xiongnu Constructibles Biases" Item="BUILDING_ALTAR" Value="200" />
 		<Row ListType="Xiongnu Constructibles Biases" Item="BUILDING_GRANARY" Value="200" />
-		<Row ListType="Xiongnu Unit Biases" Item="UNIT_TUNKUR_ROG" Value="150"/>
-		<Row ListType="Xiongnu Unit Biases" Item="UNIT_KANDAR_ROG" Value="150"/>
-		<Row ListType="Xiongnu Unit Biases" Item="UNIT_KANDAR_ROG_2" Value="150"/>
-		<Row ListType="Xiongnu Unit Biases" Item="UNIT_KANDAR_ROG_3" Value="150"/>
+		<Row ListType="Xiongnu Unit Biases" Item="UNIT_STEPPE_HORSE_BOWMAN_JEC" Value="150"/>
+		<Row ListType="Xiongnu Unit Biases" Item="UNIT_STEPPE_HORSE_BOWMAN_JEC_2" Value="150"/>
+		<Row ListType="Xiongnu Unit Biases" Item="UNIT_STEPPE_HORSE_BOWMAN_JEC_3" Value="150"/>
 		<Row ListType="Xiongnu Settle Plot Conditions" Item="Resource Class" Value="5" StringVal="RESOURCECLASS_BONUS" TooltipString="LOC_SETTLEMENT_RECOMMENDATION_STRATEGIC_RESOURCES"/>
 	</AiFavoredItems>
 	<!-- City Strategies -->

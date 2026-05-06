@@ -8,13 +8,13 @@
             <Text>It belongs to whoever is strong enough to take it.</Text>
         </Row>
         <Row Tag="LOC_XIONGNU_JEC_COMPLETED_PROGRESSION_TREEB_NAME">
-            <Text>The Hun's reputation fuels its growth.</Text>
+            <Text>The Xiongnu's reputation fuels its growth.</Text>
         </Row>
         <Row Tag="LOC_XIONGNU_JEC_COMPLETED_PROGRESSION_TREEB_DESCRIPTION">
             <Text>{1_reward}.</Text>
         </Row>
         <Row Tag="LOC_XIONGNU_JEC_COMPLETED_PROGRESSION_TREEC_NAME">
-            <Text>The Hun's pride lies in its military.</Text>
+            <Text>The Xiongnu's pride lies in its military.</Text>
         </Row>
         <Row Tag="LOC_XIONGNU_JEC_COMPLETED_PROGRESSION_TREEC_DESCRIPTION">
             <Text>{1_reward}.</Text>

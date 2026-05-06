@@ -2,43 +2,36 @@
 <Database>
 	<IconDefinitions>
 		<Row>
-			<ID>CIVILIZATION_HUNS_ROG</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/civ_sym_huns_rog.png</Path>
+			<ID>CIVILIZATION_XIONGNU_JEC</ID>
+			<Path>fs://game/goggles_civ_xiongnu/icons/civ_sym_xiongnu_jec</Path>
+			<Context>DEFAULT</Context>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_HUNS_ROG</ID>
+			<ID>CIVILIZATION_XIONGNU_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/rogues-civ-huns/lsbg_huns_1080</Path>
+			<Path>fs://game/goggles_civ_xiongnu/icons/lsbg_xiongnu_jec_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_HUNS_ROG</ID>
+			<ID>CIVILIZATION_XIONGNU_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/rogues-civ-huns/lsbg_huns_720</Path>
+			<Path>fs://game/goggles_civ_xiongnu/icons/lsbg_xiongnu_jec_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
         <!-- constructables -->
-        <Row>
-            <ID>BUILDING_MEDOS_KAMOS_ROG</ID>
-            <Path>fs://game/rogues-civ-huns/assets/icon/buildicon_medos_kamos_rog.png</Path>
-            <Context>DEFAULT</Context>
-        </Row>
 		<Row>
-			<ID>UNIT_TUNKUR_ROG</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/unitflag_tunkur_rog.png</Path>
-		</Row>	
-		<Row>
-			<ID>UNIT_KANDAR_ROG</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/unitflag_kandar_rog.png</Path>
+			<ID>UNIT_STEPPE_HORSE_BOWMAN_JEC</ID>
+			<Path>fs://game/goggles_civ_xiongnu/icons/unitflag_steppe_horse_bowman_jec.png</Path>
 		</Row>
 		<Row>
-			<ID>UNIT_KANDAR_ROG_2</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/unitflag_kandar_rog.png</Path>
+			<ID>UNIT_STEPPE_HORSE_BOWMAN_JEC_2</ID>
+			<Path>fs://game/goggles_civ_xiongnu/icons/unitflag_steppe_horse_bowman_jec_2.png</Path>
 		</Row>
 		<Row>
-			<ID>UNIT_KANDAR_ROG_3</ID>
-			<Path>fs://game/rogues-civ-huns/assets/icon/unitflag_kandar_rog.png</Path>
+			<ID>UNIT_STEPPE_HORSE_BOWMAN_JEC_3</ID>
+			<Path>fs://game/goggles_civ_xiongnu/icons/unitflag_steppe_horse_bowman_jec_3.png</Path>
 		</Row>
+
 	</IconDefinitions>
 	
 	<IconAliases>

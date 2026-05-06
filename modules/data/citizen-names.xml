@@ -1,24 +1,24 @@
 <Database>
 	<CivilizationCitizenNames>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_1"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_2"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_3"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_4"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_5"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_6"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_7"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_8"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_9"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_MALE_10"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_1" Female="true"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_2" Female="true"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_3" Female="true"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_4" Female="true"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_5" Female="true"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_6" Female="true"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_7" Female="true"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_8" Female="true"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_9" Female="true"/>
-		<Row CivilizationType="CIVILIZATION_HUNS_ROG" CitizenName="LOC_CITIZEN_HUNS_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CitizenName="LOC_CITIZEN_XIONGNU_FEMALE_10" Female="true"/>
 	</CivilizationCitizenNames>
 </Database>

@@ -5,10 +5,10 @@
 		<Row Type="TREE_CIVICS_AQ_XIONGNU_JEC" Kind="KIND_TREE"/>
 		<!--Civ Unique Mastery Tree Nodes-->
 		<!--Huns-->
-		<Row Type="NODE_CIVIC_AQ_HUNS_QUT" Kind="KIND_TREE_NODE"/>
-		<Row Type="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" Kind="KIND_TREE_NODE"/>
-		<Row Type="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" Kind="KIND_TREE_NODE"/>
-		<Row Type="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_XIONGNU_TEGIN" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_XIONGNU_DARKAN" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_XIONGNU_ATTI" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_AQ_XIONGNU_TUQI" Kind="KIND_TREE_NODE"/>
 	</Types>
 	<TypeQuotes>
 	</TypeQuotes>
@@ -18,46 +18,42 @@
 	</ProgressionTrees>
 	<ProgressionTreeNodes>
 		<!--Civ Unique Mastery Tree Nodes-->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" ProgressionTree="TREE_CIVICS_AQ_XIONGNU_JEC" Cost="125" Name="LOC_CIVIC_QUT_NAME" IconString="cult_XIONGNU_JEC"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" ProgressionTree="TREE_CIVICS_AQ_XIONGNU_JEC" Cost="125" Name="LOC_CIVIC_BOZKIR_YOLU_NAME" IconString="cult_XIONGNU_JEC"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" ProgressionTree="TREE_CIVICS_AQ_XIONGNU_JEC" Cost="245" Name="LOC_CIVIC_ALTUN_YUL_NAME" IconString="cult_XIONGNU_JEC"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" ProgressionTree="TREE_CIVICS_AQ_XIONGNU_JEC" Cost="245" Name="LOC_CIVIC_TANGRI_YARLIGI_NAME" IconString="cult_XIONGNU_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_TEGIN" ProgressionTree="TREE_CIVICS_AQ_XIONGNU_JEC" Cost="125" Name="LOC_CIVIC_QUT_NAME" IconString="cult_XIONGNU_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_DARKAN" ProgressionTree="TREE_CIVICS_AQ_XIONGNU_JEC" Cost="125" Name="LOC_CIVIC_BOZKIR_YOLU_NAME" IconString="cult_XIONGNU_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_ATTI" ProgressionTree="TREE_CIVICS_AQ_XIONGNU_JEC" Cost="245" Name="LOC_CIVIC_ALTUN_YUL_NAME" IconString="cult_XIONGNU_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_TUQI" ProgressionTree="TREE_CIVICS_AQ_XIONGNU_JEC" Cost="245" Name="LOC_CIVIC_TANGRI_YARLIGI_NAME" IconString="cult_XIONGNU_JEC"/>
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- Qut -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_TRADITION" TargetType="TRADITION_BASQURT" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_MEDOS_KAMOS_ROG" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_TEGIN" TargetKind="KIND_TRADITION" TargetType="TRADITION_SAGDI" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_TEGIN" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_YURT_JEC" UnlockDepth="1"/>
 		
 		<!-- Bozkir Yolu -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" TargetKind="KIND_TRADITION" TargetType="TRADITION_YILKI_YOLU" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_DARKAN" TargetKind="KIND_TRADITION" TargetType="TRADITION_TARQAN" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_DARKAN" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
 
 		<!-- Altun Yul -->
-		 <Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" TargetKind="KIND_TRADITION" TargetType="TRADITION_YASIRGAN" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_BOZKIR_YOLU_GET_RANCHED" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_CIV_WAR_SUPPORT_1" UnlockDepth="2"/>
+		 <Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_ATTI" TargetKind="KIND_TRADITION" TargetType="TRADITION_KATHIR" UnlockDepth="1"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_ATTI" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
 
 		<!-- Tangri Yarlığı -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_TRADITION" TargetType="TRADITION_YANKUL" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_TRADITION" TargetType="TRADITION_KOK_BORI" UnlockDepth="1"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_THE_GREAT_HORDE" UnlockDepth="2"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" TargetKind="KIND_MODIFIER" TargetType="MOD_HUNS_CIV_WAR_SUPPORT_2" UnlockDepth="2"/>
-		
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_TUQI" TargetKind="KIND_MODIFIER" TargetType="MOD_AQ_SETTLEMENT_CAP_INCREASE" UnlockDepth="1"/>
+
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
-		<Row Node="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" PrereqNode="NODE_CIVIC_AQ_HUNS_QUT"/>
-		<Row Node="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" PrereqNode="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU"/>
-		<Row Node="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" PrereqNode="NODE_CIVIC_AQ_HUNS_ALTUN_YUL"/>
+		<Row Node="NODE_CIVIC_AQ_XIONGNU_ATTI" PrereqNode="NODE_CIVIC_AQ_XIONGNU_TEGIN"/>
+		<Row Node="NODE_CIVIC_AQ_XIONGNU_ATTI" PrereqNode="NODE_CIVIC_AQ_XIONGNU_DARKAN"/>
+		<Row Node="NODE_CIVIC_AQ_XIONGNU_TUQI" PrereqNode="NODE_CIVIC_AQ_XIONGNU_ATTI"/>
 		
 	</ProgressionTreePrereqs>
 	<ProgressionTree_Advisories>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>	
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_QUT" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>	
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_BOZKIR_YOLU" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>	
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_ALTUN_YUL" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>	
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_HUNS_TANGRI_YARLIGI" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_TEGIN" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>	
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_TEGIN" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_DARKAN" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>	
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_DARKAN" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_ATTI" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>	
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_ATTI" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_TUQI" AdvisoryClassType="ADVISORY_CLASS_EMPIRE_EXPANSION"/>	
+		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_XIONGNU_TUQI" AdvisoryClassType="ADVISORY_CLASS_MILITARY"/>
 	</ProgressionTree_Advisories>
 </Database>

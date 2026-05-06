@@ -5,12 +5,10 @@
 			<Text>Ride with the storm, by the will of Tengrï!</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_XIONGNU">
-			<Text>Unlike the sedentary kingdoms they clashed with, the XIONGNU built no cities—their empire was wherever their horses roamed. They lived and fought on the move, wielding their powerful composite bows with deadly precision from horseback. Their diplomacy was as ruthless as their warfare, using intimidation, extortion, and swift reprisals to control vast territories without ever needing walls.</Text>
+			<Text>Unlike the sedentary kingdoms they clashed with, the Xiongnu built no cities—their empire was wherever their horses roamed. They lived and fought on the move, wielding their powerful composite bows with deadly precision from horseback. Their diplomacy was as ruthless as their warfare, using intimidation, extortion, and swift reprisals to control vast territories without ever needing walls.</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_XIONGNU">
-			<Text>Expand into new pastures with your Tunkur and Kandar Unique Units.</Text>
+			<Text>Expand into new pastures with your Steppe Horse Bowman Unique Units.</Text>
 		</Row>
-
-		
 	</EnglishText>
 </Database>

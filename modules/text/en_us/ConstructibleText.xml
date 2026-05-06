@@ -2,31 +2,15 @@
 <Database>
 	<EnglishText>
 
-		<!-- BUILDING -->
-		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_ROG_NAME">
-			<Text>Medos Kamos</Text>
+		<!-- Civ Unique Improvements -->
+		<Row Tag="LOC_IMPROVEMENT_YURT_JEC_NAME">
+			<Text>Yurt</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_ROG_DESCRIPTION">
-			<Text>+1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Food. +1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Happiness from adjacent Plains and Camps Tiles. Ageless. Can be purchased in Towns.</Text>
+		<Row Tag="LOC_IMPROVEMENT_YURT_JEC_DESCRIPTION">
+			<Text>Xiongnu [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP]. +1[icon:YIELD_HAPPINESS] Happiness. +1[icon:YIELD_HAPPINESS] Happiness on all [TIP:LOC_PEDIA_CONCEPTS_PASTURE_TOOLTIP]Pastures[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP]. Must be placed on [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP]. One per Settlement.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_MEDOS_KAMOS_ROG_TOOLTIP">
-			<Text>Ageless. Can be purchased in Towns.</Text>
+		<Row Tag="LOC_IMPROVEMENT_YURT_JEC_TOOLTIP">
+			<Text>Effect: +1 [icon:YIELD_HAPPINESS] on all [TIP:LOC_PEDIA_CONCEPTS_PASTURES_TOOLTIP]P[/TIP] in this [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[n]Must be placed on [TIP:LOC_PEDIA_CONCEPTS_FLAT_TERRAIN_TOOLTIP]Flat Terrain[/TIP]. One per [TIP:LOC_PEDIA_CONCEPTS_SETTLEMENT_TOOLTIP]Settlement[/TIP].[n]Khmer [TIP:LOC_PEDIA_CONCEPTS_UNIQUE_IMPROVEMENT_TOOLTIP]Unique Improvement[/TIP].</Text>
 		</Row>
-		<!-- QUARTER -->
-		<Row Tag="LOC_QUARTER_STRAVA_NAME">
-			<Text>Strava</Text>
-		</Row>
-
-		<Row Tag="LOC_QUARTER_STRAVA_DESCRIPTION">
-			<Text>Hun Unique Quarter. Created by constructing the Medos Kamos and Granary in the same District. Ageless.[LI]{LOC_QUARTER_STRAVA_TOOLTIP_TOWN}[LI]{LOC_QUARTER_STRAVA_TOOLTIP_CITY}[/LIST]</Text>
-		</Row>
-
-		<Row Tag="LOC_QUARTER_STRAVA_TOOLTIP_TOWN">
-			<Text>Town: Gain a free Cavalry Unit when entering a Celebration. .</Text>
-		</Row>
-		<Row Tag="LOC_QUARTER_STRAVA_TOOLTIP_CITY">
-			<Text>City: +1[icon:YIELD_HAPPINESS] Happiness and +1[icon:YIELD_FOOD] Food</Text>
-		</Row>
-
 	</EnglishText>
 </Database>

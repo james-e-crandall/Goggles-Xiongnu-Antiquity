@@ -5,13 +5,16 @@
 	<!-- ==================================================	-->
 
 
-    <Modifier id="MOD_XIONGNU_ABILITY_UNIT_PRODUCTION" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_UNIT_PRODUCTION">
+
+	<Modifier id="XIONGNU_MOD_INFANTRY_CONSTRUCT_UNIQUE_IMPROVEMENT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_UNIT" permanent="true">
 		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_BUILD_QUEUE"/>
-            <Requirement type="REQUIREMENT_CITY_IS_CAPITAL"/>
+			<Requirement type="REQUIREMENT_CITY_BUILT_TAGGED_CONSTRUCTIBLE">
+				<Argument name="Tags">UNIQUE_IMPROVEMENT</Argument>
+			</Requirement>
 		</SubjectRequirements>
-		<Argument name="Percent">100</Argument>
-        <String context="Description">LOC_TRADITION_YASIRGAN_CAPITAL_UNIT_PRODUCTION_DESCRIPTION</String>
+		<Argument name="AllowUniqueOverride">true</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_CAVALRY</Argument>
+		<Argument name="Amount">1</Argument>
 	</Modifier>
 
 	<!-- ==================================================	-->

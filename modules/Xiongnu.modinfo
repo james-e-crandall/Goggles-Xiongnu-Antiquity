@@ -91,11 +91,11 @@
 					<Item>icons/civ_sym_xiongnu_jec</Item>
 					<Item>icons/civ_sym_xiongnu_jec.png</Item>
 					<Item>icons/cult_xiongnu_jec.png</Item>
-					<Item>icons/unitflag_tunkur_jec.png</Item>
-					<Item>icons/unitflag_kandar_jec.png</Item>
 					<Item>icons/lsbg_xiongnu_720</Item>
 					<Item>icons/lsbg_xiongnu_1080</Item>
-					<Item>icons/buildicon_medos_kamos_jec.png</Item>			
+					<Item>icons/unitflag_steppe_horse_bowman_jec.png</Item>
+					<Item>icons/unitflag_steppe_horse_bowman_jec_2.png</Item>
+					<Item>icons/unitflag_steppe_horse_bowman_jec_3.png</Item>
                 </ImportFiles>
 				<UpdateIcons>
 					<Item>data/icons/icons.xml</Item>
@@ -149,14 +149,14 @@
 					<Item>icons/civ_sym_xiongnu_jec</Item>
 					<Item>icons/civ_sym_xiongnu_jec.png</Item>
 					<Item>icons/cult_xiongnu_jec.png</Item>
-					<Item>icons/unitflag_tunkur_jec.png</Item>
-					<Item>icons/unitflag_kandar_jec.png</Item>
 					<Item>icons/lsbg_xiongnu_720</Item>
 					<Item>icons/lsbg_xiongnu_1080</Item>
-					<Item>icons/buildicon_medos_kamos_jec.png</Item>	
+					<Item>icons/unitflag_steppe_horse_bowman_jec.png</Item>
+					<Item>icons/unitflag_steppe_horse_bowman_jec_2.png</Item>
+					<Item>icons/unitflag_steppe_horse_bowman_jec_3.png</Item>
                 </ImportFiles>
 				<UpdateIcons>
-					<Item>icons/icons.xml</Item>
+					<Item>data/icons/icons.xml</Item>
 				</UpdateIcons>
 				<UpdateDatabase>
 					<Item>config/config.xml</Item>

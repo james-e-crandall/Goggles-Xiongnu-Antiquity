@@ -1,45 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-		<!-- TUNKUR -->
-		<Row Tag="LOC_UNIT_TUNKUR_JEC_NAME">
-			<Text>Tunkur</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_TUNKUR_JEC_DESCRIPTION">
-			<Text>Hunnic Unique Support Unit. Adjacent Kandar units recieve +1 combat strength.</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_TUNKUR_PREVIEW">
-			<Text>+{1_Amount} Tunkur</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_TUNKUR_NAME">
-			<Text>Tunkur</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_TUNKUR_DESCRIPTION">
-			<Text>Adjacent Kandar units recieve +1 combat strength</Text>
-		</Row>
+		<!-- Unit Abilities -->
 
-		<!-- KANDAR -->
-		<Row Tag="LOC_UNIT_KANDAR_JEC_NAME">
-			<Text>Kandar</Text>
+		<!-- Greece Unique Units -->
+		<Row Tag="LOC_UNIT_STEPPE_HORSE_BOWMAN_JEC_NAME">
+			<Text>Steppe Horse Bowman</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_KANDAR_JEC_DESCRIPTION">
-			<Text>Hunnic Unique Cavalry Unit.</Text>
+		<Row Tag="LOC_UNIT_STEPPE_HORSE_BOWMAN_JEC_BASE_DESCRIPTION">
+			<Text>Xiongnu Unique Cavalry Unit.</Text>
 		</Row>
-
-		<!-- Culture -->
-		<Row Tag="LOC_ABILITY_KOK_BORI_NAME">
-			<Text>Kok Bori</Text>
+		<Row Tag="LOC_UNIT_STEPPE_HORSE_BOWMAN_JEC_DESCRIPTION">
+			<Text>Xiongnu Unique Cavalry Unit.</Text>
 		</Row>
-
-		<Row Tag="LOC_ABILITY_KOK_BORI_COMBAT_PREVIEW">
-			<Text>{1_Amount} Kok Bori</Text>
+		<Row Tag="LOC_UNIT_STEPPE_HORSE_BOWMAN_JEC_2_DESCRIPTION">
+			<Text>Tier 2 Xiongnu Unique Cavalry Unit..</Text>
 		</Row>
-
-		<Row Tag="LOC_ABILITY_THE_GREAT_HORDE_NAME">
-			<Text>Tängri Yarlığı</Text>
-		</Row>
-		<Row Tag="LOC_ABILITY_THE_GREAT_HORDE_DESCRIPTION">
-			<Text>+1 movement.</Text>
+		<Row Tag="LOC_UNIT_STEPPE_HORSE_BOWMAN_JEC_3_DESCRIPTION">
+			<Text>Tier 3 Xiongnu Unique Cavalry Unit..</Text>
 		</Row>
 	</EnglishText>
 </Database>

@@ -1,67 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Types>
-		<Row Type="BUILDING_MEDOS_KAMOS_ROG" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="IMPROVEMENT_YURT_JEC" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<Constructibles>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" Name="LOC_BUILDING_MEDOS_KAMOS_ROG_NAME" Description="LOC_BUILDING_MEDOS_KAMOS_ROG_DESCRIPTION" Tooltip="LOC_BUILDING_MEDOS_KAMOS_ROG_TOOLTIP" ConstructibleClass="BUILDING" Cost="55" Population="1"/>
+		<!-- Civ Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_YURT_JEC" Name="LOC_IMPROVEMENT_YURT_JEC_NAME" Description="LOC_IMPROVEMENT_YURT_JEC_DESCRIPTION" Tooltip="LOC_IMPROVEMENT_YURT_JEC_TOOLTIP" ConstructibleClass="IMPROVEMENT" Cost="40" Population="1" Age="AGE_ANTIQUITY"/>
 	</Constructibles>
 	<Buildings>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" Movable="false" Town="True" TraitType="TRAIT_XIONGNU_JEC"/>
 	</Buildings>
+	<Improvements>
+		<!-- Civ Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_YURT_JEC" ResourceTier="0" CityBuildable="false" OnePerSettlement="true" TraitType="TRAIT_XIONGNU_JEC"/>
+	</Improvements>
 	<TypeTags>
-		<Row Type="BUILDING_MEDOS_KAMOS_ROG" Tag="HAPPINESS"/>
-		<Row Type="BUILDING_MEDOS_KAMOS_ROG" Tag="AGELESS"/>
+		<!-- Civ Unique Improvements -->
+		<Row Type="IMPROVEMENT_YURT_JEC" Tag="UNIQUE_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_YURT_JEC" Tag="AGELESS"/>
 	</TypeTags>
 	<Constructible_ValidDistricts>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="IMPROVEMENT_YURT_JEC" DistrictType="DISTRICT_RURAL"/>
 	</Constructible_ValidDistricts>
 	<Constructible_ValidBiomes>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" BiomeType="BIOME_PLAINS"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" BiomeType="BIOME_GRASSLAND"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" BiomeType="BIOME_TROPICAL"/>
 	</Constructible_ValidBiomes>
+	<Constructible_ValidTerrains>
+		<Row ConstructibleType="IMPROVEMENT_YURT_JEC" TerrainType="TERRAIN_FLAT"/>
+	</Constructible_ValidTerrains>
+
 	<Constructible_YieldChanges>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row ConstructibleType="IMPROVEMENT_YURT_JEC" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
 	</Constructible_YieldChanges>
 	<Constructible_Maintenances>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldType="YIELD_GOLD" Amount="2"/>
+	
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldChangeId="MedosKamosCampHappiness"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldChangeId="MedosKamosPastureHappiness"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldChangeId="MedosKamosCampFood"/>
-		<Row ConstructibleType="BUILDING_MEDOS_KAMOS_ROG" YieldChangeId="MedosKamosPastureFood"/>
+
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-		<Row ID="MedosKamosCampHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_CAMP"/>
-		<Row ID="MedosKamosPastureHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_PASTURE"/>
-		<Row ID="MedosKamosCampFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_CAMP"/>
-		<Row ID="MedosKamosPastureFood" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentConstructible="IMPROVEMENT_PASTURE"/>
+
 	</Adjacency_YieldChanges>
 	<Adjacency_YieldChanges>
 
 	</Adjacency_YieldChanges>
 	<Constructible_WarehouseYields>
+		<Row ConstructibleType="IMPROVEMENT_YURT_JEC" YieldChangeId="YurtPastureHappiness"/>
 	</Constructible_WarehouseYields>
 	<Warehouse_YieldChanges>
-
+		<Row ID="YurtPastureHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" ConstructibleInCity="IMPROVEMENT_PASTURE"/>
 	</Warehouse_YieldChanges>
+	<Constructible_Plunders>
+		<!-- Civ Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_YURT_JEC" PlunderType="PLUNDER_HEAL" Amount="30"/>
+	</Constructible_Plunders>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_STRAVA" BuildingType1="BUILDING_MEDOS_KAMOS_ROG" BuildingType2="BUILDING_GRANARY" Name="LOC_QUARTER_STRAVA_NAME" Description="LOC_QUARTER_STRAVA_DESCRIPTION" Tooltip="LOC_QUARTER_STRAVA_TOOLTIP" TraitType="TRAIT_XIONGNU_JEC"/>
+
 	</UniqueQuarters>
 	<GameModifiers>
-		<Row ModifierId="MOD_QUARTER_STRAVA_FREE_KANDAR_TOWN"/>
-		<Row ModifierId="MOD_QUARTER_STRAVA_HAPPINESS_CITY"/>
-		<Row ModifierId="MOD_QUARTER_STRAVA_FOOD_CITY"/>
+
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_FREE_KANDAR_TOWN"/>
-		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_HAPPINESS_CITY"/>
-		<Row UniqueQuarterType="QUARTER_STRAVA" ModifierId="MOD_QUARTER_STRAVA_FOOD_CITY"/>
+
 	</UniqueQuarterModifiers>
+	<Constructible_Advisories>
+<		<!-- Civ Unique Improvements -->
+		<Row ConstructibleType="IMPROVEMENT_YURT_JEC" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row ConstructibleType="IMPROVEMENT_YURT_JEC" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
+	</Constructible_Advisories>
 
 </Database>
