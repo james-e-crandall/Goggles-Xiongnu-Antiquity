@@ -31,7 +31,12 @@
 			<ID>UNIT_STEPPE_HORSE_BOWMAN_JEC_3</ID>
 			<Path>fs://game/goggles_civ_xiongnu/icons/unitflag_steppe_horse_bowman_jec_3.png</Path>
 		</Row>
-
+        <!-- UU AND UI -->
+        <Row>
+            <ID>IMPROVEMENT_YURT_JEC</ID>
+            <Path>fs://game/goggles_civ_xiongnu/icons/buildicon_yurt_jec.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
 	</IconDefinitions>
 	
 	<IconAliases>

@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<EnglishText>
-	
+		<Row Tag="LOC_TREE_CIVICS_AQ_XIONGNU_JEC_NAME">
+			<Text>Xiongnu Civics</Text>
+		</Row>
+
+		<!-- NODE_CIVIC_AQ_XIONGNU_TEGIN -->
+		<Row Tag="LOC_CIVIC_XIONGNU_TEGIN_NAME">
+			<Text>Tegin</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_TEGIN_QUOTE">
+			<Text>"Prince or noble."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_TEGIN_QUOTE_AUTHOR">
+			<Text>???</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_TEGIN_DESCRIPTION">
+			<Text>Something.</Text>
+		</Row>
+
+		<!-- NODE_CIVIC_AQ_XIONGNU_TARKHAN -->
+		<Row Tag="LOC_CIVIC_XIONGNU_TARKHAN_NAME">
+			<Text>TARKHAN</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_TARKHAN_QUOTE">
+			<Text>"A senior official title."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_TARKHAN_QUOTE_AUTHOR">
+			<Text>???</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_TARKHAN_DESCRIPTION">
+			<Text>Something.</Text>
+		</Row>
+
+		<!-- NODE_CIVIC_AQ_XIONGNU_ATTI -->
+		<Row Tag="LOC_CIVIC_XIONGNU_ATTI_NAME">
+			<Text>ATTI</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_ATTI_QUOTE">
+			<Text>"Queen or wife of the Chanyu."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_ATTI_QUOTE_AUTHOR">
+			<Text>???</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_ATTI_DESCRIPTION">
+			<Text>Something.</Text>
+		</Row>
+
+		<!-- NODE_CIVIC_AQ_XIONGNU_TUQI -->
+		<Row Tag="LOC_CIVIC_XIONGNU_TUQI_NAME">
+			<Text>TUQI</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_TUQI_QUOTE">
+			<Text>"Wise, sage (used in titles)."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_TUQI_QUOTE_AUTHOR">
+			<Text>???</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_XIONGNU_TUQI_DESCRIPTION">
+			<Text>Something.</Text>
+		</Row>
 	</EnglishText>
 </Database>
+
+<!-- Chanyu / Chanyü (單于): Supreme ruler.
+Tengri / Chenli (撐犁): Heaven, sky.
+Tarqan / Tarkhan (當戶): A senior official title.
+Tegin / Tigin (特勒): Prince or noble.
+Kut / Gutu (孤塗): Son, sometimes associated with "godly/blessed" (prince).
+Atti / Yanshi (阏氏): Queen or wife of the Chanyu.
+Katir / Katil (居次): Princess or young lady.
+Tuqi / Tuqist (屠耆): Wise, sage (used in titles).
+Sakdak / Sagdi: Boot.Gʷawa: Prince.
+Kʷala / Kolo: Son.
+服匿 (Funi): Pottery.熐蠡 (Guli): Cheese. -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_XIONGNU" Subtitle="LOC_LOADING_VO_XIONGNU" Audio="VO_Loading_xiongnu" BackgroundImageHigh="fs://game/goggles_civ_xiongnu/lsbg_xiongnu_1080" BackgroundImageLow="fs://game/goggles_civ_xiongnu/lsbg_xiongnu_720" ForegroundImage="fs://game/goggles_civ_xiongnu/civ_line_xiongnu.png" Tip="LOC_LOADING_CIV_TIPS_TEXT_XIONGNU"/>
+		<Row CivilizationType="CIVILIZATION_XIONGNU_JEC" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_XIONGNU" Subtitle="LOC_LOADING_VO_XIONGNU" Audio="VO_Loading_xiongnu" BackgroundImageHigh="fs://game/goggles_civ_xiongnu/icons/lsbg_xiongnu_jec_1080" BackgroundImageLow="fs://game/goggles_civ_xiongnu/icons/lsbg_xiongnu_jec_720" ForegroundImage="fs://game/goggles_civ_xiongnu/civ_line_xiongnu.png" Tip="LOC_LOADING_CIV_TIPS_TEXT_XIONGNU"/>
 	</LoadingInfo_Civilizations>
 </Database>

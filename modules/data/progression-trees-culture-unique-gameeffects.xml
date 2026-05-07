@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+
+
 	<!-- NODE_CIVIC_AQ_XIONGNU_TEGIN -->
-	<!-- <Modifier id="MOD_XIONGNU_ABILITY_PURCHASE_IMPROVEMENT_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+	<Modifier id="MOD_XIONGNU_PURCHASE_IMPROVEMENT_EFFICIENCY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
 		<Argument name="Tag">IMPROVEMENT</Argument>
 		<Argument name="Percent">250</Argument>
 		<String context="Description">LOC_TRAIT_XIONGNU_JEC_ABILITY_DESCRIPTION</String>
-	</Modifier> -->
+	</Modifier>
 
-	<!-- NODE_CIVIC_AQ_XIONGNU_DARKAN -->
+	<!-- NODE_CIVIC_AQ_XIONGNU_TARKHAN -->
 	<!-- <Modifier id="MOD_AQ_TECH_CULTURE_BUILDING" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
 		<Argument name="Tag">CULTURE</Argument>
 		<Argument name="YieldType">YIELD_CULTURE</Argument>

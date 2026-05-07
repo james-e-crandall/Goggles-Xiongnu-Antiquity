@@ -2,31 +2,5 @@
 <GameEffects xmlns="GameEffects">
 
 
-	<!-- QUARTER -->
-
-
-	<Modifier id="MOD_QUARTER_LUUT_HAPPINESS_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_LUUT</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="ConstructibleType">BUILDING_YURT_JEC</Argument>
-	</Modifier>
-
-	<Modifier id="MOD_QUARTER_LUUT_FOOD_CITY" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_CONSTRUCTIBLE_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_HAS_UNIQUE_QUARTER">
-				<Argument name="UniqueQuarterType">QUARTER_LUUT</Argument>
-			</Requirement>
-			<Requirement type="REQUIREMENT_CITY_IS_CITY"></Requirement>
-		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_FOOD</Argument>
-		<Argument name="Amount">1</Argument>
-		<Argument name="ConstructibleType">BUILDING_YURT_JEC</Argument>
-	</Modifier>
 
 </GameEffects>
